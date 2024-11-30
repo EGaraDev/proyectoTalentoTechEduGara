@@ -13,7 +13,6 @@ body {
 }
 
 p {
-    color: blue;
     font-size: 26px;
 
 }
@@ -23,18 +22,37 @@ p {
 }
 
 #imgPrincipal {
-    width: 50%;
+    width: 100%;
+    height: 100%;
 
 }
 
 header {
     background-color: rgb(229, 217, 209);
     font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 15px;
+    border: 2px;
+
+}
+
+main {
+    margin: 20px;
+    padding: 15px;
+    border: 2px;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 2px;
 }
 
 footer {
     background-color: rgb(229, 217, 209);
-    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 15px;
+    border: 2px;
 
 }
 
@@ -46,4 +64,29 @@ nav ul li a {
 .linkRedesSociales {
     font-size: 25px;
     text-decoration: none;
+}
+
+#videoPrincipal {
+    width: 100%;
+    height: 100%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.producto {
+
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+}
+
+.imgProd {
+    width: 80%;
+    height: 80%;
 }
