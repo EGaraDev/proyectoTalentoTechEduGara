@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+p {
+    color: blue;
+    font-size: 26px;
+
+}
+
+.linkRedesSociales {
+    color: rgb(239, 165, 128);
+}
+
+#imgPrincipal {
+    width: 50%;
+
+}
+
+header {
+    background-color: rgb(229, 217, 209);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: rgb(229, 217, 209);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
