@@ -174,15 +174,12 @@ button:hover {
 
 @media (max-width: 768px) {
 
-    /* Ajustes generales */
     body {
         padding: 10px;
     }
 
-    /* Ajustar las tarjetas en la sección de reseñas */
     .card-container {
         grid-template-columns: 1fr;
-        /* Una columna */
     }
 
     .card {
@@ -190,14 +187,12 @@ button:hover {
         font-size: 14px;
     }
 
-    /* Sección de contacto */
     #contacto {
         padding: 10px;
     }
 
     form {
         gap: 5px;
-        /* Espaciado reducido */
     }
 
     input,
